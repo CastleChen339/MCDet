@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and outputs
+logs/
+log/
+*.log
+checkpoints/
+wandb/
+cache/
+tmp/
+temp/
+*.tmp
+
+# Data and large artifacts
+test_samples/
+runs/
+data/
+datasets/**
+!datasets/
+!datasets/**/
+!datasets/**/*.py
+!datasets/**/__init__.py
+*.pt
+*.pth
+*.ckpt
+
+# Local experiments and debug scripts (not for release)
+experiments/
+tools/
+
+# Misc
+.DS_Store
